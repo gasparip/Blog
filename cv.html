@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV - Mon Site Web</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
     <header>
@@ -25,8 +26,14 @@
         <div class="container">
             <section class="cv">
                 <h2>Mon CV</h2>
-                <p>Consultez mon CV détaillé.</p>
-                <!-- Ajoute ici le contenu détaillé de ton CV -->
+                <p>Vous pouvez consulter mon CV en ligne ou le télécharger au format PDF en utilisant les options ci-dessous.</p>
+                <!-- Lien pour télécharger le PDF -->
+               
+                <!-- Intégration automatique du PDF -->
+                <embed src="cv_pierregaspari.pdf" type="application/pdf" width="100%" height="600px" />
+                <!-- Ou utilisez iframe pour un support plus large -->
+                <!-- <iframe src="cv.pdf" style="width: 100%; height: 600px;" frameborder="0"></iframe> -->
+                <a href="cv_pierregaspari.pdf" target="_blank" class="btn">Télécharger mon CV (PDF)</a>
             </section>
         </div>
     </main>

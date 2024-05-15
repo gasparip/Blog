@@ -68,7 +68,6 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1rem 0;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -101,4 +100,23 @@ footer {
 
 .contact button:hover {
     background: #575757;
+}
+
+/* Styles pour le bouton de téléchargement */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #575757;
 }
